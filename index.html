@@ -1,2 +1,89 @@
-<h1>hello</h1>
-<a href="nam.html">начать читать</a>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дорожные истории</title>
+    <style>
+      /* Сброс стилей по умолчанию */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Общие стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh; /* 100% от высоты экрана */
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+}
+
+/* Контейнер для контента */
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px; /* Максимальная ширина контейнера */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Стили для заголовка */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Стили для ссылок */
+a {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Стили для кнопки "начать читать" */
+.big-button {
+    background-color: #4CAF50; /* Зеленый цвет */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    border-radius: 30px; /* Скругленные углы */
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.big-button:hover {
+    background-color: #45a049; /* Темнее зеленый при наведении */
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .big-button {
+        width: 100%; /* Кнопка занимает всю ширину на мобильных устройствах */
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Дорожные истории</h1>
+        <a href="nam.html" class="big-button">начать читать</a>
+        <a href="list.html">список рассказов</a>
+    </div>
+</body>
+</html>

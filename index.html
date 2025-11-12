@@ -5,75 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Дорожные истории</title>
     <style>
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+        /* Сброс стилей по умолчанию */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    height: 98vh;
-    display: flex;
-    justify-content: center; /* Центрирование по горизонтали */
-    align-items: center; /* Центрирование по вертикали */
-}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            min-height: 100vh; /* Минимальная высота страницы на 100% от высоты экрана */
+            display: flex;
+            justify-content: center; /* Центрирование по горизонтали */
+            align-items: center; /* Центрирование по вертикали */
+        }
 
-/* Контейнер для контента */
-.container {
-    text-align: center;
-    width: 100%;
-    max-width: 768px; /* Максимальная ширина контейнера */
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
+        /* Контейнер для контента */
+        .container {
+            text-align: center;
+            width: 100%;
+            max-width: 768px; /* Максимальная ширина контейнера */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
 
-h1 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-a {
-    display: inline-block;
-    margin: 10px 0;
-    font-size: 1.2rem;
-    color: #333;
-}
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
 
-.big-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px 30px;
-    font-size: 1.5rem;
-    border-radius: 30px; 
-    text-align: center;
-    transition: background-color 0.3s ease;
-}
+        a {
+            display: inline-block;
+            margin: 10px 0;
+            font-size: 1.2rem;
+            color: #333;
+        }
 
-.big-button a {
-    text-decoration: none:
-}
+        /* Стили для кнопки "начать читать" */
+        .big-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            border-radius: 30px; 
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
 
-.big-button:hover {
-    background-color: #45a049; /* Темнее зеленый при наведении */
-}
+        .big-button a (
+            text-decoration: none !important;
+        }
 
-/* Адаптивность */
-@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
+        .big-button:hover {
+            background-color: #45a049; /* Темнее зеленый при наведении */
+        }
 
-    .container {
-        padding: 10px;
-    }
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
 
-    .big-button {
-        width: 100%; /* Кнопка занимает всю ширину на мобильных устройствах */
-    }
-}
+            .container {
+                padding: 10px;
+            }
+
+            .big-button {
+                width: 100%; /* Кнопка занимает всю ширину на мобильных устройствах */
+            }
+        }
     </style>
 </head>
 <body>

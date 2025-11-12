@@ -21,6 +21,8 @@ body {
 pre {
     font-family: 'Uk_Antique';
     white-space: pre-wrap;
+    font-size: 16pt;
+    line-height: 1.5;
 }
 
 img {

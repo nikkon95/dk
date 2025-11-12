@@ -12,21 +12,24 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    min-height: 100vh; /* Минимальная высота страницы на 100% от высоты экрана */
+    min-height: 100vh;
     display: flex;
-    justify-content: center; /* Центрирование по горизонтали */
-    align-items: center; /* Центрирование по вертикали */
+    justify-content: center;
+    align-items: center;
 }
 
 pre {
     font-family: 'Uk_Antique';
 }
 
-/* Контейнер для контента */
+img {
+  max-height: 350px;
+}
+
 .container {
     text-align: center;
     width: 100%;
-    max-width: 768px; /* Максимальная ширина контейнера */
+    max-width: 768px; 
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -45,7 +48,6 @@ a {
     color: #333;
 }
 
-/* Стили для кнопки "начать читать" */
 .big-button {
     background-color: #4CAF50;
     color: white;
@@ -58,10 +60,9 @@ a {
 }
 
 .big-button:hover {
-    background-color: #45a049; /* Темнее зеленый при наведении */
+    background-color: #45a049;
 }
 
-/* Адаптивность */
 @media (max-width: 768px) {
     body {
         padding: 10px;
@@ -69,9 +70,5 @@ a {
 
     .container {
         padding: 10px;
-    }
-
-    .big-button {
-        width: 100%; /* Кнопка занимает всю ширину на мобильных устройствах */
     }
 }

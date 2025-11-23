@@ -40,6 +40,14 @@ img {
     border-radius: 8px;
 }
 
+.container_with_bg {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 h1 {
     font-size: 2rem;
     margin-bottom: 20px;
